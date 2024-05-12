@@ -11,6 +11,9 @@ const Blog = require('./Blog');
 app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
+app.get('/', (req, res) => {
+    res.send('Hello, World2');
+});
 
 app.get('/projects', async (req, res) => {
     try {
